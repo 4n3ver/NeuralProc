@@ -1,0 +1,32 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.jar
+
+*.lnk
+*.bak
+*.pyc
+
+# Ignore Directory #
+####################
+.idea/
+__pycache__/
+incremental_db/
+log/
+output_files/
+
