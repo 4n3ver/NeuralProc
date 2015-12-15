@@ -1,0 +1,309 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do neural_proc_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/Mux2to1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Mux2to1
+# 
+# Top level modules:
+# 	Mux2to1
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/neural_processor.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module neural_processor
+# 
+# Top level modules:
+# 	neural_processor
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fifo
+# 
+# Top level modules:
+# 	fifo
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/macc.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module macc
+# 
+# Top level modules:
+# 	macc
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/inst_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module inst_memory
+# 
+# Top level modules:
+# 	inst_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/sigmoid.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sigmoid
+# 
+# Top level modules:
+# 	sigmoid
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/yoeli/Desktop/NeuralProc\ students {C:/Users/yoeli/Desktop/NeuralProc students/testbench2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testbench2
+# 
+# Top level modules:
+# 	testbench2
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  testbench2
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbench2 
+# Loading work.testbench2
+# Loading work.neural_processor
+# Loading work.counter
+# Loading work.inst_memory
+# Loading work.controller
+# Loading work.fifo
+# Loading work.Mux2to1
+# Loading work.macc
+# Loading work.sigmoid
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Emmanuel  Hostname: EMMANUEL-PC  ProcessID: 1532
+# 
+#           Attempting to use alternate WLF file "./wlftwww71i".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftwww71i
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# time	 clk  reset
+# 0	   0    1
+# cycle =           0
+# opcode: 11
+# PC =    0
+# instr = c0000000
+# macc      0 *      x +      x =      x
+# sigmoid(     x)=     x
+# input_fifo head =     x, lt =     x, empty = x, full = x
+# macc_fifo head =     x, lt =     x, empty = x, full = x
+# work_fifo head =     x, lt =     x, empty = x, full = x
+# output_fifo head =     x, lt =     x, empty = x, full = x
+# 
+# 
+# 10	   1    1
+# 20	   0    0
+# cycle =           1
+# opcode: 00
+# PC =   13
+# instr = 00000002
+# macc      2 *      4 +      0 =      8
+# sigmoid(     0)=     0
+# input_fifo head =     4, lt =     2, empty = 0, full = 0
+# macc_fifo head =     0, lt =     0, empty = 1, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 30	   1    0
+# 40	   0    0
+# cycle =           2
+# opcode: 01
+# PC =   12
+# instr = 40000003
+# macc      3 *      4 +      0 =     12
+# sigmoid(     0)=     0
+# input_fifo head =     4, lt =     2, empty = 0, full = 0
+# macc_fifo head =     0, lt =     2, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 50	   1    0
+# 60	   0    0
+# cycle =           3
+# opcode: 01
+# PC =   11
+# instr = 40000005
+# macc      5 *      4 +      0 =     20
+# sigmoid(     0)=     0
+# input_fifo head =     4, lt =     1, empty = 0, full = 0
+# macc_fifo head =     0, lt =     1, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 70	   1    0
+# 80	   0    0
+# cycle =           4
+# opcode: 01
+# PC =   10
+# instr = 40000007
+# macc      7 *      4 +     12 =     40
+# sigmoid(    12)=     1
+# input_fifo head =     4, lt =     2, empty = 0, full = 0
+# macc_fifo head =    12, lt =     1, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 90	   1    0
+# 100	   0    0
+# cycle =           5
+# opcode: 01
+# PC =    9
+# instr = 40000009
+# macc      9 *      4 +     20 =     56
+# sigmoid(    20)=     1
+# input_fifo head =     4, lt =     1, empty = 0, full = 0
+# macc_fifo head =    20, lt =     1, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 110	   1    0
+# 120	   0    0
+# cycle =           6
+# opcode: 01
+# PC =    8
+# instr = 4000000b
+# macc     11 *      5 +     40 =     95
+# sigmoid(    40)=     1
+# input_fifo head =     5, lt =     2, empty = 0, full = 0
+# macc_fifo head =    40, lt =     1, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 130	   1    0
+# 140	   0    0
+# cycle =           7
+# opcode: 01
+# PC =    7
+# instr = 4000000d
+# macc     13 *      5 +     56 =    121
+# sigmoid(    56)=     1
+# input_fifo head =     5, lt =     1, empty = 0, full = 0
+# macc_fifo head =    56, lt =     1, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 150	   1    0
+# 160	   0    0
+# cycle =           8
+# opcode: 10
+# PC =    6
+# instr = 80000001
+# macc      1 *      0 +     95 =     95
+# sigmoid(    95)=     1
+# input_fifo head =     0, lt =     0, empty = 1, full = 0
+# macc_fifo head =    95, lt =     1, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 170	   1    0
+# 180	   0    0
+# cycle =           9
+# opcode: 10
+# PC =    5
+# instr = 80000001
+# macc      1 *      1 +    121 =    122
+# sigmoid(   121)=     1
+# input_fifo head =     0, lt =     0, empty = 1, full = 0
+# macc_fifo head =   121, lt =     1, empty = 0, full = 0
+# work_fifo head =     1, lt =     1, empty = 0, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 190	   1    0
+# 200	   0    0
+# cycle =          10
+# opcode: 00
+# PC =    4
+# instr = 00000001
+# macc      1 *      1 +      0 =      1
+# sigmoid(     0)=     0
+# input_fifo head =     0, lt =     0, empty = 1, full = 0
+# macc_fifo head =     0, lt =     0, empty = 1, full = 0
+# work_fifo head =     1, lt =     1, empty = 0, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 210	   1    0
+# 220	   0    0
+# cycle =          11
+# opcode: 01
+# PC =    3
+# instr = 4000000f
+# macc     15 *      1 +      0 =     15
+# sigmoid(     0)=     0
+# input_fifo head =     0, lt =     0, empty = 1, full = 0
+# macc_fifo head =     0, lt =     1, empty = 0, full = 0
+# work_fifo head =     1, lt =     1, empty = 0, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 230	   1    0
+# 240	   0    0
+# cycle =          12
+# opcode: 01
+# PC =    2
+# instr = 40000001
+# macc      1 *      1 +     15 =     16
+# sigmoid(    15)=     1
+# input_fifo head =     0, lt =     0, empty = 1, full = 0
+# macc_fifo head =    15, lt =     1, empty = 0, full = 0
+# work_fifo head =     1, lt =     1, empty = 0, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 250	   1    0
+# 260	   0    0
+# cycle =          13
+# opcode: 10
+# PC =    1
+# instr = 80000000
+# macc      0 *      0 +     16 =     16
+# sigmoid(    16)=     1
+# input_fifo head =     0, lt =     0, empty = 1, full = 0
+# macc_fifo head =    16, lt =     1, empty = 0, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     0, lt =     0, empty = 1, full = 0
+# 
+# 
+# 270	   1    0
+# 280	   0    0
+# cycle =          14
+# opcode: 11
+# PC =    0
+# instr = c0000000
+# macc      0 *      0 +      0 =      0
+# sigmoid(     0)=     0
+# input_fifo head =     0, lt =     0, empty = 1, full = 0
+# macc_fifo head =     0, lt =     0, empty = 1, full = 0
+# work_fifo head =     0, lt =     0, empty = 1, full = 0
+# output_fifo head =     1, lt =     1, empty = 0, full = 0
+# 
+# 
+# Break in Module testbench2 at C:/Users/yoeli/Desktop/NeuralProc students/testbench2.v line 94
+# Simulation Breakpoint: Break in Module testbench2 at C:/Users/yoeli/Desktop/NeuralProc students/testbench2.v line 94
+# MACRO ./neural_proc_run_msim_rtl_verilog.do PAUSED at line 24

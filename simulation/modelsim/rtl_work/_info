@@ -1,0 +1,186 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\yoeli\Desktop\NeuralProc students\simulation\modelsim
+vcontroller
+IGilkcP6Gd8YUH@AZlU^S?3
+V_ed3V=6EGP=NH^?c5c7hH2
+Z1 dC:\Users\yoeli\Desktop\NeuralProc students\simulation\modelsim
+w1449349813
+8C:/Users/yoeli/Desktop/NeuralProc students/controller.v
+FC:/Users/yoeli/Desktop/NeuralProc students/controller.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work {+incdir+C:/Users/yoeli/Desktop/NeuralProc students} -O0
+!i10b 1
+!s100 i4ok@zB5OkHmOPb934UcT1
+!s85 0
+!s108 1449366082.788000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/controller.v|
+!s101 -O0
+vcounter
+I]C=HWX?EJMR[@76d>Wi3]0
+V71<fSPFa9VLj=Qf72;QcP1
+R1
+w1449259030
+8C:/Users/yoeli/Desktop/NeuralProc students/counter.v
+FC:/Users/yoeli/Desktop/NeuralProc students/counter.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 TRSQ<LT8l3_49c_mhoR`31
+!s85 0
+!s108 1449366082.856000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/counter.v|
+!s101 -O0
+vfifo
+IP>C37:eJi[:MNlmeilNWZ0
+V2aZ7Za^7RlABj72W0RT;12
+R1
+w1449364115
+8C:/Users/yoeli/Desktop/NeuralProc students/fifo.v
+FC:/Users/yoeli/Desktop/NeuralProc students/fifo.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ^aBg43_neHEDgch]7E7d73
+!s85 0
+!s108 1449366082.585000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/fifo.v|
+!s101 -O0
+vinst_memory
+IM<zA^6cPLFH]B_2_NVzKJ1
+V2@hV=Lll6eCn;B2^I:j3=0
+R1
+w1449182788
+8C:/Users/yoeli/Desktop/NeuralProc students/inst_memory.v
+FC:/Users/yoeli/Desktop/NeuralProc students/inst_memory.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 Hnm4b8EcU:QgWZ1R1PIhB1
+!s85 0
+!s108 1449366082.718000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/inst_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/inst_memory.v|
+!s101 -O0
+vmacc
+IcFP[jB?oo]<54:EhWV0<n2
+Vh<6chd?91]]1FA;FRUI[?2
+R1
+w1449335357
+8C:/Users/yoeli/Desktop/NeuralProc students/macc.v
+FC:/Users/yoeli/Desktop/NeuralProc students/macc.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 m36[zTKUaJBz?8lN<HQcX3
+!s85 0
+!s108 1449366082.653000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/macc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/macc.v|
+!s101 -O0
+vMux2to1
+IN_`^SB<JB=SWbeKOE`MRD2
+VS>^Vj[>3Jh`BcTXgdhn3^1
+R1
+w1445533464
+8C:/Users/yoeli/Desktop/NeuralProc students/Mux2to1.v
+FC:/Users/yoeli/Desktop/NeuralProc students/Mux2to1.v
+L0 1
+R2
+r1
+31
+R3
+n@mux2to1
+R4
+!i10b 1
+!s100 KGOa5i?F0k7VY7Y<oR=`n3
+!s85 0
+!s108 1449366082.457000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/Mux2to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/Mux2to1.v|
+!s101 -O0
+vneural_processor
+IF;RSc2H@6?djNL9cjjcMX3
+VKfH`>XUih`laeJDY6JzYm0
+R1
+w1449352925
+8C:/Users/yoeli/Desktop/NeuralProc students/neural_processor.v
+FC:/Users/yoeli/Desktop/NeuralProc students/neural_processor.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 [?1C@TC^ldNFN^M<^DFU<1
+!s85 0
+!s108 1449366082.519000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/neural_processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/neural_processor.v|
+!s101 -O0
+vsigmoid
+I63CHTEo3bK_D74C]GEJfh1
+Vd6]EAK2WgNMQJ`US]VPjb1
+R1
+w1449335677
+8C:/Users/yoeli/Desktop/NeuralProc students/sigmoid.v
+FC:/Users/yoeli/Desktop/NeuralProc students/sigmoid.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 :8[PW=WUKgP?7=E0Dfz8T0
+!s85 0
+!s108 1449366082.924000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/sigmoid.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/sigmoid.v|
+!s101 -O0
+vtestbench2
+!i10b 1
+!s100 PEoK8GS:o[EaBHaDHVmUX3
+ICFbZHmo:[R`ZMR6Q2FoeC0
+V<WjIFPfEhdLN6;1kTlCRZ3
+R1
+w1449366043
+8C:/Users/yoeli/Desktop/NeuralProc students/testbench2.v
+FC:/Users/yoeli/Desktop/NeuralProc students/testbench2.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1449366082.995000
+!s107 C:/Users/yoeli/Desktop/NeuralProc students/testbench2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/yoeli/Desktop/NeuralProc students|C:/Users/yoeli/Desktop/NeuralProc students/testbench2.v|
+!s101 -O0
+R3
+R4

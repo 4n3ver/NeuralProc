@@ -1,0 +1,599 @@
+$date
+	Sat Dec 05 15:47:24 2015
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module fifo_test $end
+$var parameter 32 ! NUM_ENTRIES $end
+$var parameter 32 " ADDR_LEN $end
+$var parameter 32 # ENTRY_WIDTH $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$var reg 1 & enqueue $end
+$var reg 1 ' dequeue $end
+$var reg 32 ( data_in [31:0] $end
+$var wire 1 ) data_out [31] $end
+$var wire 1 * data_out [30] $end
+$var wire 1 + data_out [29] $end
+$var wire 1 , data_out [28] $end
+$var wire 1 - data_out [27] $end
+$var wire 1 . data_out [26] $end
+$var wire 1 / data_out [25] $end
+$var wire 1 0 data_out [24] $end
+$var wire 1 1 data_out [23] $end
+$var wire 1 2 data_out [22] $end
+$var wire 1 3 data_out [21] $end
+$var wire 1 4 data_out [20] $end
+$var wire 1 5 data_out [19] $end
+$var wire 1 6 data_out [18] $end
+$var wire 1 7 data_out [17] $end
+$var wire 1 8 data_out [16] $end
+$var wire 1 9 data_out [15] $end
+$var wire 1 : data_out [14] $end
+$var wire 1 ; data_out [13] $end
+$var wire 1 < data_out [12] $end
+$var wire 1 = data_out [11] $end
+$var wire 1 > data_out [10] $end
+$var wire 1 ? data_out [9] $end
+$var wire 1 @ data_out [8] $end
+$var wire 1 A data_out [7] $end
+$var wire 1 B data_out [6] $end
+$var wire 1 C data_out [5] $end
+$var wire 1 D data_out [4] $end
+$var wire 1 E data_out [3] $end
+$var wire 1 F data_out [2] $end
+$var wire 1 G data_out [1] $end
+$var wire 1 H data_out [0] $end
+$var wire 1 I full $end
+$var wire 1 J empty $end
+$scope module f $end
+$var parameter 32 K ADDR_LEN $end
+$var parameter 32 L DATA_WIDTH $end
+$var wire 1 M clk $end
+$var wire 1 N reset $end
+$var wire 1 O enqueue $end
+$var wire 1 P dequeue $end
+$var wire 1 Q data_in [31] $end
+$var wire 1 R data_in [30] $end
+$var wire 1 S data_in [29] $end
+$var wire 1 T data_in [28] $end
+$var wire 1 U data_in [27] $end
+$var wire 1 V data_in [26] $end
+$var wire 1 W data_in [25] $end
+$var wire 1 X data_in [24] $end
+$var wire 1 Y data_in [23] $end
+$var wire 1 Z data_in [22] $end
+$var wire 1 [ data_in [21] $end
+$var wire 1 \ data_in [20] $end
+$var wire 1 ] data_in [19] $end
+$var wire 1 ^ data_in [18] $end
+$var wire 1 _ data_in [17] $end
+$var wire 1 ` data_in [16] $end
+$var wire 1 a data_in [15] $end
+$var wire 1 b data_in [14] $end
+$var wire 1 c data_in [13] $end
+$var wire 1 d data_in [12] $end
+$var wire 1 e data_in [11] $end
+$var wire 1 f data_in [10] $end
+$var wire 1 g data_in [9] $end
+$var wire 1 h data_in [8] $end
+$var wire 1 i data_in [7] $end
+$var wire 1 j data_in [6] $end
+$var wire 1 k data_in [5] $end
+$var wire 1 l data_in [4] $end
+$var wire 1 m data_in [3] $end
+$var wire 1 n data_in [2] $end
+$var wire 1 o data_in [1] $end
+$var wire 1 p data_in [0] $end
+$var wire 1 ) data_out [31] $end
+$var wire 1 * data_out [30] $end
+$var wire 1 + data_out [29] $end
+$var wire 1 , data_out [28] $end
+$var wire 1 - data_out [27] $end
+$var wire 1 . data_out [26] $end
+$var wire 1 / data_out [25] $end
+$var wire 1 0 data_out [24] $end
+$var wire 1 1 data_out [23] $end
+$var wire 1 2 data_out [22] $end
+$var wire 1 3 data_out [21] $end
+$var wire 1 4 data_out [20] $end
+$var wire 1 5 data_out [19] $end
+$var wire 1 6 data_out [18] $end
+$var wire 1 7 data_out [17] $end
+$var wire 1 8 data_out [16] $end
+$var wire 1 9 data_out [15] $end
+$var wire 1 : data_out [14] $end
+$var wire 1 ; data_out [13] $end
+$var wire 1 < data_out [12] $end
+$var wire 1 = data_out [11] $end
+$var wire 1 > data_out [10] $end
+$var wire 1 ? data_out [9] $end
+$var wire 1 @ data_out [8] $end
+$var wire 1 A data_out [7] $end
+$var wire 1 B data_out [6] $end
+$var wire 1 C data_out [5] $end
+$var wire 1 D data_out [4] $end
+$var wire 1 E data_out [3] $end
+$var wire 1 F data_out [2] $end
+$var wire 1 G data_out [1] $end
+$var wire 1 H data_out [0] $end
+$var wire 1 I full $end
+$var wire 1 J empty $end
+$var reg 8 q head [7:0] $end
+$var reg 8 r tail [7:0] $end
+$var reg 9 s size [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0$
+1%
+0&
+0'
+b0 (
+bx q
+bx r
+bx s
+b100000000 !
+b1011 "
+b100000 #
+b1000 K
+b100000 L
+xH
+xG
+xF
+xE
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+xI
+xJ
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+1N
+0M
+$end
+#5
+1$
+1M
+b0 q
+b0 r
+b0 s
+0H
+0G
+0F
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+1J
+0I
+#10
+0$
+0M
+#15
+1$
+1M
+#20
+0%
+0$
+0N
+0M
+#25
+1&
+b10100000000000000001 (
+1$
+1O
+1p
+1_
+1]
+1M
+b1 r
+b1 s
+1H
+17
+15
+0J
+#30
+0$
+0M
+#35
+b10110000000000000001 (
+1$
+1`
+1M
+b10 r
+b10 s
+#40
+0$
+0M
+#45
+b11000000000000000001 (
+1$
+0`
+0_
+1^
+1M
+b11 r
+b11 s
+#50
+0$
+0M
+#55
+0&
+1'
+1$
+0O
+1P
+1M
+b1 q
+b10 s
+18
+#60
+0$
+0M
+#65
+1$
+1M
+b10 q
+b1 s
+08
+07
+16
+#70
+0$
+0M
+#75
+1$
+1M
+b11 q
+b0 s
+0H
+06
+05
+1J
+#80
+0$
+0M
+#85
+0'
+1&
+b10100000000000000001 (
+1$
+0P
+1O
+1_
+0^
+1M
+b100 r
+b1 s
+1H
+17
+15
+0J
+#90
+0$
+0M
+#95
+b10110000000000000100 (
+1$
+0p
+1n
+1`
+1M
+b101 r
+b10 s
+#100
+0$
+0M
+#105
+b11000000000000000010 (
+1$
+1o
+0n
+0`
+0_
+1^
+1M
+b110 r
+b11 s
+#110
+0$
+0M
+#115
+1'
+0&
+1$
+1P
+0O
+1M
+b100 q
+b10 s
+0H
+1F
+18
+#120
+0$
+0M
+#125
+1$
+1M
+1H
+1G
+0F
+#130
+0$
+0M
+#135
+1$
+1M
+0H
+#140
+0$
+0M
+#145
+1$
+1M
+1H
+0G
+#150
+0$
+0M
+#155
+1$
+1M
+b101 q
+b1 s
+0H
+1G
+08
+07
+16
+#160
+0$
+0M
+#165
+1$
+1M
+1H
+0G
+#170
+0$
+0M
+#175
+1$
+1M
+b110 q
+b0 s
+0H
+06
+05
+1J
+#180
+0$
+0M
+#185
+1$
+1M
+#190
+0$
+0M
+#195
+1$
+1M
+#200
+0$
+0M
+#205
+1$
+1M
+#210
+0$
+0M
+#215
+1$
+1M
+#220
+0$
+0M
+#225
+1$
+1M
+#230
+0$
+0M
+#235
+1$
+1M
+#240
+0$
+0M
+#245
+1$
+1M
+#250
+0$
+0M
+#255
+1$
+1M
+#260
+0$
+0M
+#265
+1$
+1M
+#270
+0$
+0M
+#275
+1$
+1M
+#280
+0$
+0M
+#285
+1$
+1M
+#290
+0$
+0M
+#295
+1$
+1M
+#300
+0$
+0M
+#305
+1$
+1M
+#310
+0$
+0M
+#315
+1$
+1M
+#320
+0$
+0M
+#325
+1$
+1M
+#330
+0$
+0M
+#335
+1$
+1M
+#340
+0$
+0M
+#345
+1$
+1M
+#350
+0$
+0M
+#355
+1$
+1M
+#360
+0$
+0M
+#365
+1$
+1M
+#370
+0$
+0M
+#375
+1$
+1M
+#380
+0$
+0M
+#385
+1$
+1M
+#390
+0$
+0M
+#395
+1$
+1M
+#400
+0$
+0M
+#405
+1$
+1M
+#410
+0$
+0M
